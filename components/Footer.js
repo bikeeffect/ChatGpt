@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-wrap max-w-screen-xl gap-10 pt-10 mx-auto mt-5 border-t border-gray-100 dark:border-trueGray-700 justify-center">
           {/* Policy */}
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
+            <div className="flex flex-wrap w-full -mt-2">
               <p className="w-full px-4 py-2 text-gray-700 font-bold rounded-md dark:text-gray-300 dark:focus:bg-trueGray-700">
                 Policy
               </p>
@@ -20,7 +20,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
+            <div className="flex flex-wrap w-full -mt-2">
               <p className="w-full px-4 py-2 text-gray-700 font-bold rounded-md dark:text-gray-300 dark:focus:bg-trueGray-700">
                 Contact
               </p>
