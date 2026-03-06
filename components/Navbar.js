@@ -5,7 +5,7 @@ export default function Navbar() {
 
   return (
     <div className="w-full">
-      <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-0">
+      <nav className="container relative flex flex-wrap items-center justify-between px-4 py-4 md:p-8 mx-auto lg:justify-between xl:px-0">
         <div className="flex flex-wrap items-center justify-between w-full lg:w-auto">
           <a href="https://www.chatgptfinder.app/">
             <span className="flex items-center space-x-2 text-2xl font-medium text-emerald-500 dark:text-gray-100">

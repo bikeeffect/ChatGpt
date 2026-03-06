@@ -7,17 +7,17 @@ export default function Privacy() {
     <>
       <Head>
         <title>Privacy Policy - ChatGPT Finder</title>
-        <meta name="viewport" content="width=device-width" />
+
       </Head>
       <Navbar />
-      <div className="container p-8 mx-auto xl:px-0 max-w-3xl py-12">
-        <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-8">
+      <div className="container px-4 py-8 md:p-8 mx-auto xl:px-0 max-w-3xl md:py-12">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6 md:mb-8">
           Privacy Policy for ChatGPT Finder
         </h1>
 
-        <div className="space-y-8 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+        <div className="space-y-6 md:space-y-8 text-gray-600 dark:text-gray-300 text-base md:text-lg leading-relaxed">
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Introduction
             </h2>
             <p>
@@ -26,7 +26,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Information Collection and Use
             </h2>
             <p>
@@ -35,7 +35,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Data Storage and Security
             </h2>
             <p>
@@ -44,7 +44,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Changes to Our Privacy Policy
             </h2>
             <p>
@@ -53,7 +53,7 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Contact Information
             </h2>
             <p>

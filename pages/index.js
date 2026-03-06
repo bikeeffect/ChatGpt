@@ -114,7 +114,7 @@ export default function Home() {
     <>
       <Head>
         <title>ChatGPT Finder - Manage all your ChatGPT creations like magic</title>
-        <meta name="viewport" content="width=device-width" />
+
       </Head>
       <Navbar />
       <Hero />

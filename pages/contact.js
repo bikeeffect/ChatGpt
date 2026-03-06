@@ -7,17 +7,17 @@ export default function Contact() {
     <>
       <Head>
         <title>Contact Us - ChatGPT Finder</title>
-        <meta name="viewport" content="width=device-width" />
+
       </Head>
       <Navbar />
-      <div className="container p-8 mx-auto xl:px-0 max-w-3xl py-12">
-        <h1 className="text-4xl font-bold text-gray-800 dark:text-white mb-8">
+      <div className="container px-4 py-8 md:p-8 mx-auto xl:px-0 max-w-3xl md:py-12">
+        <h1 className="text-2xl md:text-4xl font-bold text-gray-800 dark:text-white mb-6 md:mb-8">
           Contact Us
         </h1>
 
-        <div className="space-y-8 text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+        <div className="space-y-6 md:space-y-8 text-gray-600 dark:text-gray-300 text-base md:text-lg leading-relaxed">
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Get in Touch
             </h2>
             <p>
@@ -26,7 +26,7 @@ export default function Contact() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Email
             </h2>
             <p>
@@ -38,7 +38,7 @@ export default function Contact() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-3">
+            <h2 className="text-xl md:text-2xl font-semibold text-gray-800 dark:text-white mb-3">
               Response Time
             </h2>
             <p>

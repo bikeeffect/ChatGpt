@@ -2,13 +2,13 @@ import { ChromeIcon, EdgeIcon } from './BrowserIcons'
 
 export default function Hero() {
   return (
-    <div className="container p-8 mx-auto xl:px-0 flex flex-wrap items-center justify-center py-12 md:py-24">
+    <div className="container px-4 py-8 md:p-8 mx-auto xl:px-0 flex flex-wrap items-center justify-center md:py-24">
       <div className="flex items-center w-full justify-center">
         <div className="max-w-2xl mb-8 text-center">
-          <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+          <h1 className="text-3xl font-bold leading-snug tracking-tight text-gray-800 md:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
             ChatGPT Finder
           </h1>
-          <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
+          <p className="py-5 text-base leading-normal text-gray-500 md:text-xl xl:text-2xl dark:text-gray-300">
             ChatGPT Finder is a most powerful tool for managing and sharing files created by ChatGPT. With beautiful and convenient interface.
           </p>
         </div>
@@ -31,7 +31,7 @@ export default function Hero() {
       </div>
 
       <div className="flex flex-col justify-center">
-        <div className="text-xl text-center text-gray-700 dark:text-white">
+        <div className="text-base md:text-xl text-center text-gray-700 dark:text-white">
           Powerful ChatGPT file explorer
         </div>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-x-4 sm:space-y-0 mt-4">

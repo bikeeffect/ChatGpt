@@ -5,6 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="description" content="ChatGPT Finder is a tool to manage all your ChatGPT creations like magic." />
         <meta name="keywords" content="ChatGPT Finder, ChatGPT, ChatGPT explorer, ChatGPT manager ChatGPT file manager, ChatGPT creations manager, ChatGPT creations explorer" />
         <link rel="canonical" href="https://chatgptfinder.app/" />
