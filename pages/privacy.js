@@ -21,7 +21,7 @@ export default function Privacy() {
               Introduction
             </h2>
             <p>
-              This privacy policy is for ChatGPT Finder, an extension for Chrome, Firefox, Edge browser. Our commitment is to protect your privacy and handle any personal information with care and respect.
+              This privacy policy is for ChatGPT Finder, an extension for Chrome and Edge browser. Our commitment is to protect your privacy and handle any personal information with care and respect.
             </p>
           </section>
 
@@ -57,7 +57,10 @@ export default function Privacy() {
               Contact Information
             </h2>
             <p>
-              For any questions or concerns regarding this privacy policy, please contact us through our support email provided on the Chrome extension store page.
+              For any questions or concerns regarding this privacy policy, please contact us at{' '}
+              <a href="mailto:contact@chatgptfinder.app" className="text-emerald-500 hover:text-emerald-600">
+                contact@chatgptfinder.app
+              </a>.
             </p>
           </section>
         </div>

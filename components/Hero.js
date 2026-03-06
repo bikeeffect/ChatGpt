@@ -1,4 +1,4 @@
-import { ChromeIcon, EdgeIcon, FirefoxIcon } from './BrowserIcons'
+import { ChromeIcon, EdgeIcon } from './BrowserIcons'
 
 export default function Hero() {
   return (
@@ -34,7 +34,7 @@ export default function Hero() {
         <div className="text-xl text-center text-gray-700 dark:text-white">
           Powerful ChatGPT file explorer
         </div>
-        <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-x-4 sm:space-y-0 mt-4">
+        <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-x-4 sm:space-y-0 mt-4">
           <div className="border py-2 px-4 rounded-xl">
             <a
               href="https://chromewebstore.google.com/detail/chatgpt-finder/dnldkbcoidnhfdkpdpalgklhjfaibgnh"
@@ -55,17 +55,6 @@ export default function Hero() {
             >
               <EdgeIcon />
               <p className="flex-grow text-gray-700 dark:text-gray-400 px-2">Get it on Edge</p>
-            </a>
-          </div>
-          <div className="border py-2 px-4 rounded-xl">
-            <a
-              href="https://addons.mozilla.org/en-US/firefox/addon/chatgpt-finder/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center"
-            >
-              <FirefoxIcon />
-              <p className="flex-grow text-gray-700 dark:text-gray-400 px-2">Get it on Firefox</p>
             </a>
           </div>
         </div>
